@@ -9,11 +9,14 @@ python = "^3.10"
 gunicorn = "^20.1.0"
 Django = "^4.1.2"
 psycopg2-binary = "^2.9.5"
+django-treenode = "^0.18.2"
 
 [tool.poetry.dev-dependencies]
 
 [tool.poetry.group.dev.dependencies]
 pytest-django = "^4.5.2"
+flake8 = "^5.0.4"
+black = "^22.10.0"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
